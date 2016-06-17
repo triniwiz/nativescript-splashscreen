@@ -1,0 +1,43 @@
+{
+  "name": "nativescript-splashscreen",
+  "version": "1.0.0",
+  "description": "NativeScript for splashscreens",
+  "main": "splashscreen.js",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.ios": "npm run preparedemo ; cd demo ; tns emulate ios",
+    "demo.android": "npm run preparedemo ; cd demo ; tns run android",
+    "preparedemo": "npm run build ; cd demo ; tns plugin remove nativescript-splashscreen ; tns plugin add .. ; tns install",
+    "setup": "cd demo ; npm install ; cd .. ; npm run build ; cd demo ; tns plugin add .. ; cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/triniwiz/nativescript-splashscreen.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "author": {
+    "name": "Osei Fortune",
+    "email": "fortune.osei@yahoo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/triniwiz/nativescript-splashscreen/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/triniwiz/nativescript-splashscreen",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "tns-platform-declarations": "^2.0.0",
+    "typescript": "^1.8.10"
+  }
+}
