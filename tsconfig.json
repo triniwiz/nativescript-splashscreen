@@ -8,7 +8,8 @@
     },
     "files": [
       "demo/node_modules/tns-core-modules/tns-core-modules.d.ts",
-      "splashscreen.android.ts"
+      "install.ts",
+      "uninstall.ts"
     ],
     "compileOnSave": false
 }
