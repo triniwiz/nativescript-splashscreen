@@ -2,10 +2,10 @@
   "name": "nativescript-splashscreen",
   "version": "1.0.0",
   "description": "NativeScript for splashscreens",
-  "main": "splash-screen.js",
+  "main": "",
   "nativescript": {
     "platforms": {
-      "android": "1.5.1"
+      "android": "2.0.1"
     }
   },
   "scripts": {
@@ -37,6 +37,7 @@
   "license": "MIT",
   "homepage": "https://github.com/triniwiz/nativescript-splashscreen",
   "readmeFilename": "README.md",
+  "dependencies": { "fs-extra": "^0.30.0" },
   "devDependencies": {
     "tns-platform-declarations": "^2.0.0",
     "typescript": "^1.8.10"
