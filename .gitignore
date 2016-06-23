@@ -2,6 +2,7 @@
 *.js.map
 *.log
 *.d.ts
+.vscode
 demo/app/*.js
 demo/*.d.ts
 demo/platforms
