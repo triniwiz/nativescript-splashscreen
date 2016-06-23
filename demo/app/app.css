@@ -1,1 +1,18 @@
-﻿
+﻿Label {
+  color:#fff;
+  padding:20;
+  width:100%;
+  text-align: center;
+  horizontal-align:center;
+  font-size:30;
+  margin-top:50;
+}
+
+Button {
+  font-size:60;
+
+}
+
+ActionBar {
+  background-color:orange;
+}

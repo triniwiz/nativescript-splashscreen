@@ -1,5 +1,5 @@
 @JavaProxy("co.fitcom.SplashScreen")
-class SplashScreen extends com.viksaa.sssplash.lib.activity.AwesomeSplash {
+export class SplashScreen extends com.viksaa.sssplash.lib.activity.AwesomeSplash {
     protected onCreate(bundle) {
         super.onCreate(bundle);
     }

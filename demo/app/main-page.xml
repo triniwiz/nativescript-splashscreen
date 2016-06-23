@@ -1,5 +1,11 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-  <StackLayout>
+  <Page.actionBar>
+      <ActionBar title="Splash Screens">
+      </ActionBar>
+  </Page.actionBar>
+  <StackLayout backgroundColor="orange">
     <Label text="{{ message }}" class="message" textWrap="true"/>
+    <Button text="Tap" tap="{{ btnTap }}" />
+    
   </StackLayout>
 </Page>

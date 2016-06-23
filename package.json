@@ -2,10 +2,11 @@
   "name": "nativescript-splashscreen",
   "version": "1.0.0",
   "description": "NativeScript for splashscreens",
-  "main": "",
+  "main": "SplashScreen.js",
   "nativescript": {
     "platforms": {
-      "android": "2.0.1"
+      "android": "2.0.1",
+      "ios": "2.0.0"
     }
   },
   "scripts": {

@@ -2,7 +2,6 @@
 `tns plugin add nativescript-splashscreen`
 
 #Configure
-*non-typescript* updates are made in `SplashScreen.js`
 *Important* update all occurrences of `org.nativescript.demo` to you app's id before using this plugin the app id can be found in the package.json of your apps root folder.
 
 

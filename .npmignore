@@ -1,2 +1,4 @@
 demo/
 *.log
+*.ts
+!*.d.ts
