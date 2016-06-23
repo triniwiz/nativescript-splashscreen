@@ -32,6 +32,7 @@
     "name": "Osei Fortune",
     "email": "fortune.osei@yahoo.com"
   },
+  "contributors": ["Nathanael Walker <walkerrunpdx@gmail.com> (http://github.com/NathanWalker)"],
   "bugs": {
     "url": "https://github.com/triniwiz/nativescript-splashscreen/issues"
   },
