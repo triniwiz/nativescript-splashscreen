@@ -93,7 +93,6 @@ npm run demo.android
 ```
 
 #ScreenShots
-
-![ss](screenshots/ss.gif?raw=true)
-
-![splash](screenshots/splash.gif?raw=true)
+Android | IOS
+--------- | ----------
+![ss](screenshots/ss.gif?raw=true) | ![splash](screenshots/splash.gif?raw=true)
