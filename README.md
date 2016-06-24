@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/nativescript-splashscreen.svg)](https://www.npmjs.com/package/nativescript-splashscreen)
+[![npm](https://img.shields.io/npm/dt/nativescript-splashscreen.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-splashscreen)
 #Installation
 `tns plugin add nativescript-splashscreen`
 
