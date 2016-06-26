@@ -39,9 +39,8 @@
   "license": "MIT",
   "homepage": "https://github.com/triniwiz/nativescript-splashscreen",
   "readmeFilename": "README.md",
-  "dependencies": { "fs-extra": "^0.30.0" },
+  "dependencies": { "fs-extra": "^0.30.0","tns-platform-declarations": "^2.0.0"},
   "devDependencies": {
-    "tns-platform-declarations": "^2.0.0",
     "typescript": "^1.8.10"
   }
 }
