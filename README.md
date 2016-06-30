@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/nativescript-splashscreen.svg)](https://www.npmjs.com/package/nativescript-splashscreen)
+[![npm](https://img.shields.io/npm/dt/nativescript-splashscreen.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-splashscreen)
 #Installation
 `tns plugin add nativescript-splashscreen`
 
@@ -93,7 +95,6 @@ npm run demo.android
 ```
 
 #ScreenShots
-
-![ss](screenshots/ss.gif?raw=true)
-
-![splash](screenshots/splash.gif?raw=true)
+Android | IOS
+--------- | ----------
+![ss](screenshots/ss.gif?raw=true) | ![splash](screenshots/splash.gif?raw=true)

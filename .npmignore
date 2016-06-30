@@ -2,3 +2,5 @@ demo/
 *.log
 *.ts
 !*.d.ts
+screenshots/
+!platforms/android/source/SplashScreen.ts
