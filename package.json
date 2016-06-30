@@ -1,8 +1,9 @@
 {
   "name": "nativescript-splashscreen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NativeScript for splashscreens",
   "main": "SplashScreen.js",
+  "typings": "SplashScreen.d.ts",
   "nativescript": {
     "platforms": {
       "android": "2.0.1",
@@ -26,13 +27,14 @@
     "NativeScript",
     "JavaScript",
     "Android",
-    "iOS"
+    "iOS",
+    "Splashscreen"
   ],
   "author": {
     "name": "Osei Fortune",
     "email": "fortune.osei@yahoo.com"
   },
-  "contributors": ["Nathanael Walker <walkerrunpdx@gmail.com> (http://github.com/NathanWalker)"],
+  "contributors": ["Nathan Walker <walkerrunpdx@gmail.com> (http://github.com/NathanWalker)"],
   "bugs": {
     "url": "https://github.com/triniwiz/nativescript-splashscreen/issues"
   },
