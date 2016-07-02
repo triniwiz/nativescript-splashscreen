@@ -14,7 +14,7 @@
 
 Update `app/App_Resources/Android/AndroidManifest.xml`
 
-```
+```xml
 <activity
 			android:name="com.tns.NativeScriptActivity"
 			android:label="@string/title_activity_kimera"
@@ -50,7 +50,7 @@ Update `configSplash.setBackgroundColor` in `app/SplashScreen.ts`
 
 Setup a delegate:
 
-```
+```ts
 import * as application from 'application';
 import {SplashScreen} from 'nativescript-splashscreen';
 
@@ -81,7 +81,7 @@ This will only show the splash screen on a fresh startup since you wouldn't want
 
 You can pass any image from your `app/App_Resources/iOS` folder and any `hex` background color.
 
-```
+```js
 new SplashScreen('twitterIcon.png', '#4E75E2');
 ```
 
