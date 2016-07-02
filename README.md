@@ -22,7 +22,7 @@ Update `app/App_Resources/Android/AndroidManifest.xml`
 		</activity>
 
         <activity 
-		android:name="co.fitcom.SplashScreen" >
+		android:name="co.fitcom.SplashScreen" android:noHistory="true">
 		<intent-filter>
 		<category android:name="android.intent.category.LAUNCHER" />
 		<action android:name="android.intent.action.MAIN" />
