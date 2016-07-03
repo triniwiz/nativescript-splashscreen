@@ -14,7 +14,7 @@ files.forEach((item, index) => {
     let fileOrFolder = item[0];
     let dest = item[1];
 
-    fs.copy(fileOrFolder, `${dest}`, (err) => {
+    fs.copy(fileOrFolder, `${dest}`, { clobber: false }, (err) => {
         if (err) return console.error(err)
     })
 })
