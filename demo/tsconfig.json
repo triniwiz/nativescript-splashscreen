@@ -4,7 +4,7 @@
         "target": "es5",
         "sourceMap": true,
         "experimentalDecorators": true,
-        "noEmitHelpers": true
+        "noEmitHelpers": false
     },
     "exclude": [
         "node_modules",

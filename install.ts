@@ -2,7 +2,7 @@ var path = require('path');
 var fs = require('fs-extra');
 
 let files = [
-    [path.resolve('./', 'platforms/android/source/SplashScreen.ts'), path.resolve('../../', 'app/SplashScreen.ts')],
+    [path.resolve('./', 'platforms/android/source/SplashScreen.js'), path.resolve('../../', 'app/SplashScreen.js')],
     [path.resolve('./', 'platforms/android/fonts/RobotoRegular.ttf'), path.resolve('../../', 'app/fonts/RobotoRegular.ttf')],
     [path.resolve('./', 'platforms/android/res/drawable/splash_logo.png'), path.resolve('../../', 'app/App_Resources/Android/drawable/splash_logo.png')],
     [path.resolve('./', 'platforms/android/res/values/material_colors.xml'), path.resolve('../../', 'app/App_Resources/Android/values/material_colors.xml')],
