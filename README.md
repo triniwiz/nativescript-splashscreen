@@ -35,7 +35,7 @@ Update `app/App_Resources/Android/AndroidManifest.xml`
 Logo :- replace `app/App_Resources/Android/drawable/splashlogo.png` with your updated logo . *must use the same filename*
 
 Text Displayed :- splash_title located in `app/App_Resources/Android/values/splash_settings.xml`
-Text Color :- Update `configSplash.setTitleTextColor` in `app/SplashScreen.ts`
+Text Color :- Update `configSplash.setTitleTextColor` in `app/SplashScreen.js`
 
 #Colors
 The color palette is based on https://material.google.com/style/color.html#color-color-palette
