@@ -44,7 +44,7 @@ e.g `md_blue_900`
 
 ###Background
 
-Update `configSplash.setBackgroundColor` in `app/SplashScreen.ts`
+Update `configSplash.setBackgroundColor` in `app/SplashScreen.js`
 
 ## iOS
 
