@@ -8,13 +8,13 @@
         "declaration": true
     },
     "files": [
-      "demo/node_modules/tns-core-modules/tns-core-modules.d.ts",
-      "node_modules/tns-platform-declarations/android17.d.ts",
-      "node_modules/tns-platform-declarations/ios.d.ts",
-      "node_modules/tns-platform-declarations/org.nativescript.widgets.d.ts",
-      "install.ts",
-      "SplashScreen.android.ts",
-      "SplashScreen.ios.ts"
+        "node_modules/tns-core-modules/tns-core-modules.d.ts",
+        "node_modules/tns-platform-declarations/tns-core-modules/android17.d.ts",
+        "node_modules/tns-platform-declarations/tns-core-modules/ios/ios.d.ts",
+        "node_modules/tns-platform-declarations/tns-core-modules/org.nativescript.widgets.d.ts",
+        "install.ts",
+        "SplashScreen.android.ts",
+        "SplashScreen.ios.ts"
     ],
     "compileOnSave": false
 }

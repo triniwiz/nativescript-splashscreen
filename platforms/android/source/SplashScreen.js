@@ -30,7 +30,7 @@ com.viksaa.sssplash.lib.activity.AwesomeSplash.extend("co.fitcom.SplashScreen", 
 
     },
     animationsFinished: function () {
-        const intent = new android.content.Intent(com.tns.NativeScriptApplication.getInstance().getApplicationContext(), com.tns.NativeScriptActivity.class)
+        const intent = new android.content.Intent(com.tns.NativeScriptApplication.getInstance().getApplicationContext(), java.lang.Class.forName("com.tns.NativeScriptActivity"))
         intent.addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK);
         com.tns.NativeScriptApplication.getInstance().startActivity(intent);
     }
