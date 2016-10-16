@@ -14,7 +14,8 @@
         "node_modules/tns-platform-declarations/tns-core-modules/org.nativescript.widgets.d.ts",
         "install.ts",
         "SplashScreen.android.ts",
-        "SplashScreen.ios.ts"
+        "SplashScreen.ios.ts",
+        "colors/colors.ts"
     ],
     "compileOnSave": false
 }

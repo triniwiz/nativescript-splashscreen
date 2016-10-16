@@ -1,6 +1,6 @@
 {
   "name": "nativescript-splashscreen",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "NativeScript for splashscreens",
   "main": "SplashScreen.js",
   "typings": "SplashScreen.d.ts",
@@ -45,7 +45,7 @@
   "dependencies": {
     "fs-extra": "^0.30.0",
     "tns-core-modules": "^2.3.0",
-    "tns-platform-declarations": "^2.0.0"
+    "tns-platform-declarations": "^2.3.0"
   },
   "devDependencies": {
     "typescript": "^1.8.10"
