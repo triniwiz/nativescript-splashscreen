@@ -2,7 +2,7 @@
   "name": "nativescript-splashscreen",
   "version": "2.3.0",
   "description": "NativeScript for splashscreens",
-  "main": "SplashScreen.js",
+  "main": "SplashScreen",
   "typings": "SplashScreen.d.ts",
   "nativescript": {
     "platforms": {
