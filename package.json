@@ -44,7 +44,6 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "fs-extra": "^0.30.0",
-    "tns-core-modules": "^2.3.0",
     "tns-platform-declarations": "^2.3.0"
   },
   "devDependencies": {
